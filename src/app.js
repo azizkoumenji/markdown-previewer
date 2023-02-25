@@ -1,9 +1,7 @@
-import React, { Component } from "react";
-import * as bootstrap from "bootstrap";
-import "../scss/App.scss";
+import React from "react";
 import { marked } from "marked";
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
